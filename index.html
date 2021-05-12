@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Week 6, Part 2</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Conainter -->
+        <main role="main" class="container">
+          <div class="starter-template">
+            <div class="container">
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Press for Savings
+    </button>
+
+              <!-- End of Container -->
+            </div>
+          </div>
+        </main><!-- /.container -->
+
+
+    <!-- Modal Window -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Pick a Flavor to see Savings</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Modal Content -->
+          <div class="modal-body">
+            <p class="lead"></p>
+            <div class="form-group">
+              <div>
+                <label for="flavor">Pick your flavor for Savings:</label>
+                <select id="flavor">
+                  <option value="">--Make a choice--</option>
+                  <option value="watermelon">Watermelon</option>
+                  <option value="lime">Lime</option>
+                  <option value="pineapple">Pineapple</option>
+                  <option value="strawberry">Strawberry</option>
+                </select>
+                <p></p>
+              </div>
+          </div>
+
+          <!-- Footer Buttons -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+
+          <p class="value"></p>
+          <!-- End of Modal -->
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,42 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding-top: 30em;
+  padding-right: 50em;
+  margin-left: 100px; }
+
+body {
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute; }
+
+.btn-primary {
+  position: absolute;
+  font-size: 20px;
+  top: 600px;
+  left: 220px;
+  border: 0;
+  background: #457434;
+  color: #000;
+  width: 200px;
+  height: 60px;
+  border: 0.05rem solid #457434;
+  border-radius: 30px; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  position: absolute;
+  font-size: 20px;
+  top: 600px;
+  left: 220px;
+  border: 0;
+  background: #a7feac;
+  color: #000;
+  width: 200px;
+  height: 60px;
+  border: 0.05rem solid #a7feac;
+  border-radius: 30px; }
