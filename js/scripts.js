@@ -11,11 +11,11 @@ function setflavor() {
   if (choice === 'watermelon') {
     para.textContent = 'You save 20%! Here is your coupon code: CACTI20';
   } else if (choice === 'lime') {
-    para.textContent = 'You save 10% percent! Here is your coupon code: CACTI10';
+    para.textContent = 'You save 10%! Here is your coupon code: CACTI10';
   } else if (choice === 'pineapple') {
-    para.textContent = 'You save 15% percent! Here is your coupon code: CACTI15';
+    para.textContent = 'You save 15%! Here is your coupon code: CACTI15';
   } else if (choice === 'strawberry') {
-    para.textContent = 'You save 10% percent! Here is your coupon code: CACTI10';
+    para.textContent = 'You save 10%! Here is your coupon code: CACTI10';
   } else {
     para.textContent = '';
   }
